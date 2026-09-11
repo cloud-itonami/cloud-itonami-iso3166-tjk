@@ -55,7 +55,7 @@ clojure -M:dev:run     # walk a demo engagement through the full actor graph
   agency subdomain was not reachable this session (network error); no
   ministry-specific URL is asserted.
 
-See `src/marketentry/facts.cljc` for the full citation trail, including
+See `src/marketentry/facts.cljk` for the full citation trail, including
 the explicitly disclaimed fabrication traps (no "No. 190" law number, no
 single canonical e-procurement portal URL, no Ministry-of-Justice-vs-Tax-
 Committee split).
@@ -185,7 +185,7 @@ value, cites the anti-corruption agency as though it were the
 procurement regulator, omits one, or cites either against the wrong
 catalogued value -- is a HARD violation the governor rejects
 unconditionally
-(`test/marketentry/governor_contract_test.clj`'s
+(`test/marketentry/governor_contract_test.cljk`'s
 `conflated-procurement-agency-claim-is-held-and-unoverridable` and
 `clean-assess-correctly-distinguishes-procurement-agency-from-anti-corruption-agency`).
 
@@ -246,7 +246,7 @@ Alongside the market-entry / statute catalogs, this repo carries a
 `com-junkawasaki/root`) — national dishes, protected products, beverages,
 crafts, festivals and heritage sites for Tajikistan:
 
-- `src/culture/facts.cljc` — the catalog, source of truth (keyed by
+- `src/culture/facts.cljk` — the catalog, source of truth (keyed by
   uppercase ISO3, mirroring `statute.facts`).
 - `schema/culture.edn` — DataScript schema.
 - `data/culture-tx.edn` — derived DataScript tx-data (regenerated from
