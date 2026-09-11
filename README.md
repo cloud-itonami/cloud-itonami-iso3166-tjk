@@ -7,8 +7,8 @@ Open ISO 3166 Blueprint for **TJK**: Tajikistan.
 Agency for State Financial Control and Combating Corruption (see below).
 
 ```
-clojure -M:dev:test    # governor contract + facts + phase + registry + store + culture
-clojure -M:dev:run     # walk a demo engagement through the full actor graph
+kbb -M:dev:test    # governor contract + facts + phase + registry + store + culture
+kbb -M:dev:run     # walk a demo engagement through the full actor graph
 ```
 
 ## Official surface
