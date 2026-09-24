@@ -14,7 +14,7 @@
     State Financial Control and Combating Corruption (a wholly separate
     anti-corruption oversight body), HARD-holding any proposal that
     conflates them."
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [langgraph.graph :as g]
             [marketentry.store :as store]
             [marketentry.operation :as op]))
